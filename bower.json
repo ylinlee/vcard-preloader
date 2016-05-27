@@ -1,0 +1,29 @@
+{
+  "name": "vcard-preloader",
+  "version": "0.0.1",
+  "description": "Footer",
+  "private": true,
+  "authors": [
+    "YCLIN"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "vcard"
+  ],
+  "main": "vcard-preloader.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vcard/vcard-preloader.git"
+  },
+  "license": "MIT",
+  "ignore": [],
+  "dependencies": {
+    "promise-polyfill": "polymerlabs/promise-polyfill#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "polymer/web-component-tester#^3.4.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}

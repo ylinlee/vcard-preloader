@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>vcard-preloader</title>
+    <!-- Font Awesome Icons -->
+    <link href="../../../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="../../../styles/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery Library -->
+    <script src="../../../scripts/jquery.min.js"></script>
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../vcard-preloader.html">
+    <script type="text/javascript">
+    $(window).load(function() {
+        var vcard_preloader = document.querySelector('vcard-preloader');
+        vcard_preloader.addLoadedClass();
+    });
+    </script>
+</head>
+
+<body>
+    <h3>Vcard Preloader</h3>
+    <vcard-preloader></vcard-preloader>
+</body>
+
+</html>
